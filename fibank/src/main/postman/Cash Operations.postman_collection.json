@@ -1,0 +1,1131 @@
+{
+	"info": {
+		"_postman_id": "fcd9cf6c-cbd2-4e17-ade5-31dca3dceccf",
+		"name": "Cash Operations",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40368204"
+	},
+	"item": [
+		{
+			"name": "POST operations tests",
+			"item": [
+				{
+					"name": "localhost:8080/api/v1/cash-operation",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "FIB-X-AUTH",
+								"value": "f9Uie8nNf112hx8s",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cashierName\": \"MARTINA\",\r\n    \"type\": \"Deposit\",\r\n    \"amount\": 100.00\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/cash-operation",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"cash-operation"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/v1/cash-operation",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "FIB-X-AUTH",
+								"value": "f9Uie8nNf112hx8s",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cashierName\": \"PETER\",\r\n    \"type\": \"Deposit\",\r\n    \"amount\": 150.00\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/cash-operation",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"cash-operation"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8080/api/v1/cash-operation",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "FIB-X-AUTH",
+								"value": "f9Uie8nNf112hx8s",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cashierName\": \"LINDA\",\r\n    \"type\": \"Deposit\",\r\n    \"amount\": 200.00\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/cash-operation",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"cash-operation"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/v1/cash-operation",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "FIB-X-AUTH",
+								"value": "f9Uie8nNf112hx8s",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cashierName\": \"MARTINA\",\r\n    \"type\": \"DepositEUR\",\r\n    \"amount\": 150.00\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/cash-operation",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"cash-operation"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/v1/cash-operation",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "FIB-X-AUTH",
+								"value": "f9Uie8nNf112hx8s",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cashierName\": \"PETER\",\r\n    \"type\": \"DepositEUR\",\r\n    \"amount\": 250.00\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/cash-operation",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"cash-operation"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/v1/cash-operation",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "FIB-X-AUTH",
+								"value": "f9Uie8nNf112hx8s",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cashierName\": \"LINDA\",\r\n    \"type\": \"DepositEUR\",\r\n    \"amount\": 300.00\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/cash-operation",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"cash-operation"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/v1/cash-operation",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "FIB-X-AUTH",
+								"value": "f9Uie8nNf112hx8s",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cashierName\": \"MARTINA\",\r\n    \"type\": \"Withdrawal\",\r\n    \"amount\": 50.00\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/cash-operation",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"cash-operation"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/v1/cash-operation",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "FIB-X-AUTH",
+								"value": "f9Uie8nNf112hx8s",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cashierName\": \"PETER\",\r\n    \"type\": \"Withdrawal\",\r\n    \"amount\": 75.00\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/cash-operation",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"cash-operation"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/v1/cash-operation",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "FIB-X-AUTH",
+								"value": "f9Uie8nNf112hx8s",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cashierName\": \"LINDA\",\r\n    \"type\": \"Withdrawal\",\r\n    \"amount\": 100.00\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/cash-operation",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"cash-operation"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/v1/cash-operation",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "FIB-X-AUTH",
+								"value": "f9Uie8nNf112hx8s",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cashierName\": \"MARTINA\",\r\n    \"type\": \"WithdrawalEUR\",\r\n    \"amount\": 100.00\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/cash-operation",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"cash-operation"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/v1/cash-operation",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "FIB-X-AUTH",
+								"value": "f9Uie8nNf112hx8s",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cashierName\": \"PETER\",\r\n    \"type\": \"WithdrawalEUR\",\r\n    \"amount\": 250.00\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/cash-operation",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"cash-operation"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/v1/cash-operation",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "FIB-X-AUTH",
+								"value": "f9Uie8nNf112hx8s",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cashierName\": \"LINDA\",\r\n    \"type\": \"WithdrawalEUR\",\r\n    \"amount\": 200.00\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/cash-operation",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"cash-operation"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Task Specific Operations",
+			"item": [
+				{
+					"name": "GET operations",
+					"item": [
+						{
+							"name": "http://localhost:8080/api/v1/cash-balance?cashierName=MARTINA",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "FIB-X-AUTH",
+										"value": "f9Uie8nNf112hx8s",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/v1/cash-balance?cashierName=MARTINA",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"cash-balance"
+									],
+									"query": [
+										{
+											"key": "cashierName",
+											"value": "MARTINA"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "http://localhost:8080/api/v1/cash-balance?cashierName=PETER",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "FIB-X-AUTH",
+										"value": "f9Uie8nNf112hx8s",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8080/api/v1/cash-balance?cashierName=PETER",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"cash-balance"
+									],
+									"query": [
+										{
+											"key": "cashierName",
+											"value": "PETER"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "http://localhost:8080/api/v1/cash-balance?cashierName=LINDA",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "FIB-X-AUTH",
+										"value": "f9Uie8nNf112hx8s",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8080/api/v1/cash-balance?cashierName=LINDA",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"cash-balance"
+									],
+									"query": [
+										{
+											"key": "cashierName",
+											"value": "LINDA"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "http://localhost:8080/api/v1/cash-balance?cashierName=MARTINA&dateFrom=2024-01-01 00:00:00&dateTo=2024-12-31 23:59:59",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "FIB-X-AUTH",
+										"value": "f9Uie8nNf112hx8s",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8080/api/v1/cash-balance?cashierName=MARTINA&dateFrom=2024-01-01 00:00:00&dateTo=2024-12-31 23:59:59",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"cash-balance"
+									],
+									"query": [
+										{
+											"key": "cashierName",
+											"value": "MARTINA"
+										},
+										{
+											"key": "dateFrom",
+											"value": "2024-01-01 00:00:00"
+										},
+										{
+											"key": "dateTo",
+											"value": "2024-12-31 23:59:59"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "http://localhost:8080/api/v1/cash-balance?cashierName=PETER&dateFrom=2024-01-01 00:00:00&dateTo=2024-12-31 23:59:59",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "FIB-X-AUTH",
+										"value": "f9Uie8nNf112hx8s",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8080/api/v1/cash-balance?cashierName=PETER&dateFrom=2024-01-01 00:00:00&dateTo=2024-12-31 23:59:59",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"cash-balance"
+									],
+									"query": [
+										{
+											"key": "cashierName",
+											"value": "PETER"
+										},
+										{
+											"key": "dateFrom",
+											"value": "2024-01-01 00:00:00"
+										},
+										{
+											"key": "dateTo",
+											"value": "2024-12-31 23:59:59"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "http://localhost:8080/api/v1/cash-balance?cashierName=LINDA&dateFrom=2024-01-01 00:00:00&dateTo=2024-12-31 23:59:59",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "FIB-X-AUTH",
+										"value": "f9Uie8nNf112hx8s",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8080/api/v1/cash-balance?cashierName=LINDA&dateFrom=2024-01-01 00:00:00&dateTo=2024-12-31 23:59:59",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"cash-balance"
+									],
+									"query": [
+										{
+											"key": "cashierName",
+											"value": "LINDA"
+										},
+										{
+											"key": "dateFrom",
+											"value": "2024-01-01 00:00:00"
+										},
+										{
+											"key": "dateTo",
+											"value": "2024-12-31 23:59:59"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST operations",
+					"item": [
+						{
+							"name": "http://localhost:8080/api/v1/cash-operation",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "FIB-X-AUTH",
+										"value": "f9Uie8nNf112hx8s",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"cashierName\": \"MARTINA\",\r\n    \"type\": \"Withdrawal\",\r\n    \"amount\": 100.00\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/v1/cash-operation",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"cash-operation"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "http://localhost:8080/api/v1/cash-operation",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "FIB-X-AUTH",
+										"value": "f9Uie8nNf112hx8s",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"cashierName\": \"PETER\",\r\n    \"type\": \"Withdrawal\",\r\n    \"amount\": 100.00\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/v1/cash-operation",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"cash-operation"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "http://localhost:8080/api/v1/cash-operation",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "FIB-X-AUTH",
+										"value": "f9Uie8nNf112hx8s",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"cashierName\": \"LINDA\",\r\n    \"type\": \"Withdrawal\",\r\n    \"amount\": 100.00\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/v1/cash-operation",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"cash-operation"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "http://localhost:8080/api/v1/cash-operation",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "FIB-X-AUTH",
+										"value": "f9Uie8nNf112hx8s",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"cashierName\": \"MARTINA\",\r\n    \"type\": \"WithdrawalEUR\",\r\n    \"amount\": 500.00\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/v1/cash-operation",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"cash-operation"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "http://localhost:8080/api/v1/cash-operation",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "FIB-X-AUTH",
+										"value": "f9Uie8nNf112hx8s",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"cashierName\": \"PETER\",\r\n    \"type\": \"WithdrawalEUR\",\r\n    \"amount\": 500.00\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/v1/cash-operation",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"cash-operation"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "http://localhost:8080/api/v1/cash-operation",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "FIB-X-AUTH",
+										"value": "f9Uie8nNf112hx8s",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"cashierName\": \"LINDA\",\r\n    \"type\": \"WithdrawalEUR\",\r\n    \"amount\": 500.00\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/v1/cash-operation",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"cash-operation"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "http://localhost:8080/api/v1/cash-operation",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "FIB-X-AUTH",
+										"value": "f9Uie8nNf112hx8s",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"cashierName\": \"MARTINA\",\r\n    \"type\": \"Deposit\",\r\n    \"amount\": 600.00\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/v1/cash-operation",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"cash-operation"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "http://localhost:8080/api/v1/cash-operation",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "FIB-X-AUTH",
+										"value": "f9Uie8nNf112hx8s",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"cashierName\": \"PETER\",\r\n    \"type\": \"Deposit\",\r\n    \"amount\": 600.00\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/v1/cash-operation",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"cash-operation"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "http://localhost:8080/api/v1/cash-operation",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "FIB-X-AUTH",
+										"value": "f9Uie8nNf112hx8s",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"cashierName\": \"LINDA\",\r\n    \"type\": \"Deposit\",\r\n    \"amount\": 600.00\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/v1/cash-operation",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"cash-operation"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "http://localhost:8080/api/v1/cash-operation",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "FIB-X-AUTH",
+										"value": "f9Uie8nNf112hx8s",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"cashierName\": \"MARTINA\",\r\n    \"type\": \"DepositEUR\",\r\n    \"amount\": 200.00\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/v1/cash-operation",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"cash-operation"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "http://localhost:8080/api/v1/cash-operation",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "FIB-X-AUTH",
+										"value": "f9Uie8nNf112hx8s",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"cashierName\": \"PETER\",\r\n    \"type\": \"DepositEUR\",\r\n    \"amount\": 200.00\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/v1/cash-operation",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"cash-operation"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "http://localhost:8080/api/v1/cash-operation?FIB-X-AUTH=f9Uie8nNf112hx8s",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "FIB-X-AUTH",
+										"value": "f9Uie8nNf112hx8s",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"cashierName\": \"LINDA\",\r\n    \"type\": \"DepositEUR\",\r\n    \"amount\": 200.00\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/v1/cash-operation?FIB-X-AUTH=f9Uie8nNf112hx8s",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"cash-operation"
+									],
+									"query": [
+										{
+											"key": "FIB-X-AUTH",
+											"value": "f9Uie8nNf112hx8s"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,216 @@
+CashierName: MARTINA
+BalanceBGN: 1100,00
+BalanceEUR: 2000,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: PETER
+BalanceBGN: 1150,00
+BalanceEUR: 2000,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: LINDA
+BalanceBGN: 1200,00
+BalanceEUR: 2000,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: MARTINA
+BalanceBGN: 1100,00
+BalanceEUR: 2150,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: PETER
+BalanceBGN: 1150,00
+BalanceEUR: 2250,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: LINDA
+BalanceBGN: 1200,00
+BalanceEUR: 2300,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: MARTINA
+BalanceBGN: 1050,00
+BalanceEUR: 2150,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: PETER
+BalanceBGN: 1075,00
+BalanceEUR: 2250,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: LINDA
+BalanceBGN: 1100,00
+BalanceEUR: 2300,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: MARTINA
+BalanceBGN: 1050,00
+BalanceEUR: 2050,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: PETER
+BalanceBGN: 1075,00
+BalanceEUR: 2000,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: LINDA
+BalanceBGN: 1100,00
+BalanceEUR: 2100,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: MARTINA
+BalanceBGN: 900,00
+BalanceEUR: 2000,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: PETER
+BalanceBGN: 900,00
+BalanceEUR: 2000,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: LINDA
+BalanceBGN: 900,00
+BalanceEUR: 2000,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: MARTINA
+BalanceBGN: 900,00
+BalanceEUR: 1500,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: PETER
+BalanceBGN: 900,00
+BalanceEUR: 1500,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: LINDA
+BalanceBGN: 900,00
+BalanceEUR: 1500,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: MARTINA
+BalanceBGN: 1500,00
+BalanceEUR: 1500,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: PETER
+BalanceBGN: 1500,00
+BalanceEUR: 1500,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: LINDA
+BalanceBGN: 1500,00
+BalanceEUR: 1500,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: MARTINA
+BalanceBGN: 1500,00
+BalanceEUR: 1700,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: PETER
+BalanceBGN: 1500,00
+BalanceEUR: 1700,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: LINDA
+BalanceBGN: 1500,00
+BalanceEUR: 1700,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: MARTINA
+BalanceBGN: 900,00
+BalanceEUR: 2000,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: PETER
+BalanceBGN: 900,00
+BalanceEUR: 2000,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: LINDA
+BalanceBGN: 900,00
+BalanceEUR: 2000,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: MARTINA
+BalanceBGN: 900,00
+BalanceEUR: 1500,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: PETER
+BalanceBGN: 900,00
+BalanceEUR: 1500,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: LINDA
+BalanceBGN: 900,00
+BalanceEUR: 1500,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: MARTINA
+BalanceBGN: 1500,00
+BalanceEUR: 1500,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: PETER
+BalanceBGN: 1500,00
+BalanceEUR: 1500,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: LINDA
+BalanceBGN: 1500,00
+BalanceEUR: 1500,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: MARTINA
+BalanceBGN: 1500,00
+BalanceEUR: 1700,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: PETER
+BalanceBGN: 1500,00
+BalanceEUR: 1700,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
+CashierName: LINDA
+BalanceBGN: 1500,00
+BalanceEUR: 1700,00
+DenominationsBGN: 50x10, 10x50
+DenominationsEUR: 100x10, 20x50
+
